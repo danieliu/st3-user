@@ -1,0 +1,57 @@
+[
+    // Fix for spaces overiding focus
+    { "keys": ["ctrl+alt+7"], "command": "focus_group", "args": { "group": 0 } },
+    { "keys": ["ctrl+alt+8"], "command": "focus_group", "args": { "group": 1 } },
+
+    // Two hands for moving to group
+    { "keys": ["ctrl+shift+7"], "command": "move_to_group", "args": { "group": 0 } },
+    { "keys": ["ctrl+shift+8"], "command": "move_to_group", "args": { "group": 1 } },
+
+    // Fix for Clojure (paredit? keybind for split)
+    { "keys": ["super+shift+s"], "command": "prompt_save_as" },
+    { "keys": ["super+ctrl+f"], "command": "toggle_full_screen" },
+
+    // SublimeREPL bindings:
+    { "keys": ["alt+super+t"], "command": "refresh_file_in_repl"},
+    { "keys": ["alt+super+b"], "command": "repl_transfer_current", "args": {"scope": "block"}},
+    { "keys": ["alt+super+r"], "command": "refresh_namespaces_in_repl"},
+    { "keys": ["alt+super+i"], "command": "switch_to_current_namespace_in_repl"},
+    { "keys": ["alt+super+x"], "command": "run_clojure_tests_from_current_namespace_in_repl"},
+    { "keys": ["alt+super+a"], "command": "run_all_clojure_tests_from_project_in_repl"},
+
+    // Singlequote for source.lisp / source.clojure
+    { "keys": ["'"], "command": "insert_snippet", "args": {"contents": "'"}, "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "source.clojure"}
+        ]
+    },
+    { "keys": ["backspace"], "command": "left_delete", "context":
+        [
+            { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+            { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+            { "key": "preceding_text", "operator": "regex_contains", "operand": "'$", "match_all": true },
+            { "key": "following_text", "operator": "regex_contains", "operand": "^'", "match_all": true },
+            { "key": "selector", "operator": "equal", "operand": "source.clojure"}
+        ]
+    },
+
+    // Markdown Preview shortcut
+    { "keys": ["alt+shift+m"], "command": "markdown_preview_select", "args": {"target": "browser"} },
+
+    // Brackethighlighter
+    { "keys": ["alt+shift+v"], "command": "bh_toggle_high_visibility" },
+
+    // TrailingSpaces
+    { "keys": ["ctrl+shift+d"], "command": "toggle_trailing_spaces" },
+    { "keys": ["ctrl+shift+t"], "command": "delete_trailing_spaces" },
+
+    // Translating tabs <-> spaces
+    { "keys": ["ctrl+shift+x"], "command": "unexpand_tabs", "args": { "set_translate_tabs": false } },
+    { "keys": ["ctrl+shift+y"], "command": "expand_tabs", "args": { "set_translate_tabs": true } },
+
+    // Set tab width
+    { "keys": ["super+ctrl+1"], "command": "set_setting", "args": {"setting": "tab_size", "value": 1} },
+    { "keys": ["super+ctrl+2"], "command": "set_setting", "args": {"setting": "tab_size", "value": 2} },
+    { "keys": ["super+ctrl+3"], "command": "set_setting", "args": {"setting": "tab_size", "value": 3} },
+    { "keys": ["super+ctrl+4"], "command": "set_setting", "args": {"setting": "tab_size", "value": 4} }
+]

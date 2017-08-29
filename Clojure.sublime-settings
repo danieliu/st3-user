@@ -1,0 +1,11 @@
+{
+    // "word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?"
+    "word_separators": "/\\()\"',;!@$%^&|+=[]{}`~?",
+    "paredit_enabled": true,
+    "rulers": [90],
+    "match_brackets": false,
+    "translate_tabs_to_spaces": true,
+    "tab_size": 2,
+    "ensure_newline_at_eof_on_save": true,
+    "draw_indent_guides": true,
+}

@@ -8,6 +8,11 @@
 	[
 		"Vintage"
 	],
+	"indent_guide_options":
+    [
+        "draw_normal",
+        "draw_active"
+    ],
 	"show_full_path": true,
 	"spacegray_fileicons": true,
 	"spacegray_sidebar_font_small": true,

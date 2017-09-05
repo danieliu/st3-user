@@ -1,8 +1,12 @@
 {
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/base16-ocean.dark (SL).tmTheme",
 	"fade_fold_buttons": false,
-	"folder_exclude_patterns": ["node_modules"],
+	"folder_exclude_patterns":
+	[
+		".git",
+		"node_modules"
+	],
 	"font_size": 10,
 	"highlight_line": true,
 	"ignored_packages":
@@ -10,10 +14,10 @@
 		"Vintage"
 	],
 	"indent_guide_options":
-    [
-        "draw_normal",
-        "draw_active"
-    ],
+	[
+		"draw_normal",
+		"draw_active"
+	],
 	"show_full_path": true,
 	"spacegray_fileicons": true,
 	"spacegray_sidebar_font_small": true,

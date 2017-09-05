@@ -9,6 +9,7 @@
 		"BracketHighlighter",
 		"Djaneiro",
 		"EDN",
+		"GitGutter",
 		"Indent XML",
 		"lispindent",
 		"Markdown Preview",
@@ -17,6 +18,8 @@
 		"paredit",
 		"Sass",
 		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-flake8",
 		"SublimeREPL",
 		"Theme - Spacegray",
 		"TrailingSpaces"

@@ -1,28 +1,29 @@
 {
-	"bootstrapped": true,
-	"in_process_packages":
-	[
-	],
-	"installed_packages":
-	[
-		"Babel",
-		"BracketHighlighter",
-		"Djaneiro",
-		"EDN",
-		"GitGutter",
-		"Indent XML",
-		"lispindent",
-		"Markdown Preview",
-		"MarkdownLight",
-		"Package Control",
-		"paredit",
-		"Sass",
-		"SideBarEnhancements",
-		"SublimeLinter",
-		"SublimeLinter-contrib-eslint",
-		"SublimeLinter-flake8",
-		"SublimeREPL",
-		"Theme - Spacegray",
-		"TrailingSpaces"
-	]
+    "bootstrapped": true,
+    "in_process_packages":
+    [
+    ],
+    "installed_packages":
+    [
+        "Babel",
+        "BracketHighlighter",
+        "Djaneiro",
+        "EDN",
+        "GitGutter",
+        "Indent XML",
+        "LaTeXTools",
+        "lispindent",
+        "Markdown Preview",
+        "MarkdownLight",
+        "Package Control",
+        "paredit",
+        "Sass",
+        "SideBarEnhancements",
+        "SublimeLinter",
+        "SublimeLinter-contrib-eslint",
+        "SublimeLinter-flake8",
+        "SublimeREPL",
+        "Theme - Spacegray",
+        "TrailingSpaces"
+    ]
 }

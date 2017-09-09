@@ -1,5 +1,12 @@
 // These settings override both User and Default settings for the MarkdownLight syntax
 {
     "color_scheme": "Packages/MarkdownLight/MarkdownDark.tmTheme",
+    "extensions":
+    [
+        "markdown",
+        "mdown",
+        "markdn",
+        "md"
+    ],
     // "word_wrap": false
 }

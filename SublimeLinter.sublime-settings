@@ -10,7 +10,7 @@
             "eslint": {
                 "@disable": false,
                 "args": [],
-                "excludes": []
+                "excludes": ["*.html"]
             },
             "flake8": {
                 "@disable": false,

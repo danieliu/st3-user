@@ -18,6 +18,7 @@
 		"draw_normal",
 		"draw_active"
 	],
+	"show_errors_inline": false,
 	"show_full_path": true,
 	"spacegray_fileicons": true,
 	"spacegray_sidebar_font_small": true,

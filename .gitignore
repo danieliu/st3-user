@@ -1,3 +1,5 @@
+.DS_Store
+
 Package Control.cache/
 
 Package Control.merged-ca-bundle
@@ -9,3 +11,5 @@ __pycache__
 .SublimeREPLHistory
 
 oscrypto-ca-bundle.crt
+
+Color Highlighter/icons/

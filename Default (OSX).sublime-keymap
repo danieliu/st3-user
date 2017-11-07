@@ -53,5 +53,8 @@
     { "keys": ["super+ctrl+1"], "command": "set_setting", "args": {"setting": "tab_size", "value": 1} },
     { "keys": ["super+ctrl+2"], "command": "set_setting", "args": {"setting": "tab_size", "value": 2} },
     { "keys": ["super+ctrl+3"], "command": "set_setting", "args": {"setting": "tab_size", "value": 3} },
-    { "keys": ["super+ctrl+4"], "command": "set_setting", "args": {"setting": "tab_size", "value": 4} }
+    { "keys": ["super+ctrl+4"], "command": "set_setting", "args": {"setting": "tab_size", "value": 4} },
+
+    // Copy file path
+    { "keys": ["ctrl+alt+c"], "command": "copy_path" }
 ]

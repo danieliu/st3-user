@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"Babel",
+		"Behave Toolkit",
 		"BracketHighlighter",
 		"Color Highlighter",
 		"Djaneiro",
@@ -18,6 +19,7 @@
 		"MarkdownLight",
 		"Package Control",
 		"paredit",
+		"SaltStack-related syntax highlighting and snippets",
 		"Sass",
 		"SideBarEnhancements",
 		"SublimeLinter",

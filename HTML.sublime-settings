@@ -1,4 +1,7 @@
-// These settings override both User and Default settings for the HTML syntax
 {
-    "tab_size": 2
+	"extensions":
+	[
+		"snap"
+	],
+	"tab_size": 2
 }

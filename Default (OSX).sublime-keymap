@@ -57,5 +57,6 @@
 
     // QoL
     { "keys": ["ctrl+alt+c"], "command": "copy_path" },
+    { "keys": ["super+alt+shift+c"], "command": "side_bar_copy_path_absolute_from_project"},
     { "keys": ["super+ctrl+r"], "command": "reveal_in_side_bar" }
 ]

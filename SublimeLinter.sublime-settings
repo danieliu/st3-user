@@ -13,7 +13,7 @@
 		{
 			"eslint":
 			{
-				"@disable": true,
+				"@disable": false,
 				"args":
 				[
 				],
@@ -90,6 +90,7 @@
 		[
 		],
 		"tooltips": false,
+		"use_current_shell_path": false,
 		"warning_color": "DDB700",
 		"wrap_find": true
 	}

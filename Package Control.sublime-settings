@@ -7,13 +7,11 @@
 	[
 		"ActualVim",
 		"Babel",
-		"Behave Toolkit",
 		"Better CoffeeScript",
 		"BracketHighlighter",
 		"Color Highlighter",
 		"Djaneiro",
 		"EDN",
-		"Git",
 		"GitGutter",
 		"Indent XML",
 		"LaTeXTools",
@@ -28,7 +26,6 @@
 		"SublimeLinter",
 		"SublimeLinter-eslint",
 		"SublimeLinter-flake8",
-		"SublimeREPL",
 		"Theme - Spacegray",
 		"TrailingSpaces"
 	]

@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"ActualVim",
 		"Babel",
 		"Behave Toolkit",
 		"Better CoffeeScript",

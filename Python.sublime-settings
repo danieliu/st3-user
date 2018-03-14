@@ -1,5 +1,11 @@
-// These settings override both User and Default settings for the Python syntax
 {
-    "rulers": [90],
-    "ensure_newline_at_eof_on_save": true,
+	"ensure_newline_at_eof_on_save": true,
+	"extensions":
+	[
+		"feature"
+	],
+	"rulers":
+	[
+		90
+	]
 }

@@ -1,6 +1,7 @@
 {
-    "extensions":
-    [
-        ".arclint"
-    ]
+	"extensions":
+	[
+		".arclint",
+		".eslintrc"
+	]
 }

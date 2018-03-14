@@ -1,0 +1,26 @@
+// SublimeLinter Settings - User
+{
+    "linters": {
+        "eslint": {
+            "disable": false,
+            "args": [],
+            "excludes": [
+                "*.html"
+            ]
+        },
+        "flake8": {
+            "disable": false,
+            "@python": 3,
+            "args": [
+                "jobs", "1",
+                "--max-complexity", "-1",
+                "--max-line-length", "80"
+            ],
+            "builtins": "",
+            "excludes": [
+                "*.feature"
+            ],
+            "ignore": "",
+        }
+    }
+}

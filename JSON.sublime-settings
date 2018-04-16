@@ -2,6 +2,7 @@
 	"extensions":
 	[
 		".arclint",
-		".eslintrc"
+		".eslintrc",
+		".arcconfig"
 	]
 }
